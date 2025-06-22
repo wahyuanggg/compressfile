@@ -49,7 +49,7 @@ export default function RootLayout({
         {/* Google Analytics */}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" // Replace with your GA ID
+          src="https://www.googletagmanager.com/gtag/js?id=G-QLB47MGFEM" // Replace with your GA ID
         />
         <Script
           id="google-analytics"
@@ -59,7 +59,7 @@ export default function RootLayout({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-XXXXXXXXXX'); // Replace with your GA ID
+              gtag('config', 'G-QLB47MGFEM'); // 
             `,
           }}
         />
@@ -67,7 +67,7 @@ export default function RootLayout({
         {/* Google AdSense */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" // Replace with your AdSense ID
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3796246996062977" // Replace with your AdSense ID
           crossOrigin="anonymous"
         />
       </head>
